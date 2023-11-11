@@ -10,24 +10,24 @@ const Profile = ({
   return (
     <Wrapper>
       <Description>
-        <Image src={avatar} alt="User avatar" class="avatar" />
-        <p class="name">{username}</p>
+        <Image src={avatar} alt="User avatar" className="avatar" />
+        <p className="name">{username}</p>
         <Paragraph>@{tag}</Paragraph>
         <Paragraph>{location}</Paragraph>
       </Description>
 
       <List>
         <Li>
-          <Label class="label">Followers</Label>
-          <Quantity class="quantity"> {followers}</Quantity>
+          <Label className="label">Followers</Label>
+          <Quantity className="quantity"> {followers}</Quantity>
         </Li>
         <Li>
-          <Label class="label">Views</Label>
-          <Quantity class="quantity"> {views}</Quantity>
+          <Label className="label">Views</Label>
+          <Quantity className="quantity"> {views}</Quantity>
         </Li>
         <Li>
-          <Label class="label">Likes</Label>
-          <Quantity class="quantity"> {likes}</Quantity>
+          <Label className="label">Likes</Label>
+          <Quantity className="quantity"> {likes}</Quantity>
         </Li>
       </List>
     </Wrapper>
